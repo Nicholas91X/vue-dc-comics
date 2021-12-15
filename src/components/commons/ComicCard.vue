@@ -32,6 +32,7 @@ export default {
         h3 {
             background-color: $secondary-color;
             color: lightgray;
+            text-transform: uppercase;
         }
     }
 </style>
