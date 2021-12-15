@@ -1,24 +1,19 @@
 @import "./partials/variables.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-// RESET 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-// CONTAINER 
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-// BODY
-body {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
-    color: $tertiary-color;
 }
 
-// TYPO 
+.active {
+    background-color: $primary-color;
+}
 
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    max-width: 1000px;
+}
